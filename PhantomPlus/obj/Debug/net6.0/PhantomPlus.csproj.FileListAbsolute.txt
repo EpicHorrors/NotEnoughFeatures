@@ -1,0 +1,12 @@
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.deps.json
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.AssemblyReference.cache
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfoInputs.cache
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfo.cs
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.CoreCompileInputs.cache
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.dll
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\refint\PhantomPlus.dll
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\ref\PhantomPlus.dll
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.Properties.Resources.resources
+C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.GenerateResource.cache
