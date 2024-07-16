@@ -4,6 +4,8 @@
 - You download the Zip file then extract and put it into your Among us folder
 - Source code for the mod is above
 
+# About
+![NotEnoughFeature](https://github.com/user-attachments/assets/69a579ef-bef7-4ffe-83ea-2296bd0229cf)
 
 
 
