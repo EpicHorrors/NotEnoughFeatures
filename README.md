@@ -20,6 +20,6 @@
 # Dev
 - Okey i know ur so sad 'cause the development end literaly after the first update
 - From now on you can download modify and release it on your github
-- Before I leave maybe forever i just wanna say that we have a group chat you can join to play among us mod you can u load your github link there for people to install the mod and play
+- Before I leave probably forever i just wanna say that we have a group chat you can join to play among us mod you can u load your github link there for people to install the mod and play
 - Group Chat link: https://discord.gg/3c6E89fBMf
-- Bye see ya later probably :)
+- Bye see ya later (probably) :)
