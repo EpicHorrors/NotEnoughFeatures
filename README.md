@@ -18,8 +18,5 @@
 - And I'm a game developer too. You can check out my games at https://epichorrors.itch.io/
 
 # Dev
-- Okey i know ur so sad 'cause the development end literaly after the first update
-- From now on you can download modify and release it on your github
-- Before I leave probably forever i just wanna say that we have a group chat you can join to play among us mod you can load your github link there for people to install your mod and play
-- Group Chat link: https://discord.gg/3c6E89fBMf
-- Bye see ya later (probably) :)
+- Nevermind I'm back to modding
+
