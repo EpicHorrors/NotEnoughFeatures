@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ANH QUAN\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {}
+    "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ANH QUAN\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {
-      "version": "1.0.0-dev",
+    "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {
+      "version": "3.0.0-dev",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ANH QUAN\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
+        "projectUniqueName": "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
         "projectName": "PhantomPlus",
-        "projectPath": "C:\\Users\\ANH QUAN\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
-        "packagesPath": "C:\\Users\\ANH QUAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ANH QUAN\\PhantomPlus\\PhantomPlus\\obj\\",
+        "projectPath": "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
+        "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\PhantomPlus\\PhantomPlus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ANH QUAN\\PhantomPlus\\NuGet.Config",
-          "C:\\Users\\ANH QUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\New folder\\PhantomPlus\\NuGet.Config",
+          "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,9 @@
             "NU1605"
           ]
         },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
@@ -48,12 +51,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "AmongUs.GameLibs.Steam": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2024.6.18, )"
             },
             "BepInEx.AutoPlugin": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.1.0, )"
@@ -62,16 +63,15 @@
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[2.1.0-rc.1, )"
             },
             "BepInEx.Unity.IL2CPP": {
-              "include": "Compile, Build, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[6.0.0-be.670, )"
             },
             "Reactor": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.2.0-ci.238, )"
             }
           },
           "imports": [
@@ -85,26 +85,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

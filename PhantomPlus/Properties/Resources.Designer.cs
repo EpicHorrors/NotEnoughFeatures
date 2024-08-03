@@ -59,15 +59,5 @@ namespace PhantomPlus.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] noclipmod {
-            get {
-                object obj = ResourceManager.GetObject("noclipmod", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }

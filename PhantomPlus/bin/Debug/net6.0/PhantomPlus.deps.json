@@ -6,11 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "PhantomPlus/1.0.0-dev": {
+      "PhantomPlus/3.0.0-dev": {
         "dependencies": {
           "AmongUs.GameLibs.Steam": "2024.6.18",
           "BepInEx.AutoPlugin": "1.1.0",
-          "BepInEx.IL2CPP.MSBuild": "2.0.1",
+          "BepInEx.IL2CPP.MSBuild": "2.1.0-rc.1",
           "BepInEx.Unity.IL2CPP": "6.0.0-be.670",
           "Reactor": "2.2.0"
         },
@@ -19,38 +19,89 @@
         }
       },
       "AmongUs.GameLibs.Steam/2024.6.18": {},
-      "AsmResolver/5.1.0": {},
+      "AsmResolver/5.1.0": {
+        "runtime": {
+          "lib/net6.0/AsmResolver.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
       "AsmResolver.DotNet/5.1.0": {
         "dependencies": {
           "AsmResolver.PE": "5.1.0",
           "System.Text.Json": "6.0.7"
+        },
+        "runtime": {
+          "lib/net6.0/AsmResolver.DotNet.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
         }
       },
       "AsmResolver.PE/5.1.0": {
         "dependencies": {
           "AsmResolver.PE.File": "5.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/AsmResolver.PE.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
         }
       },
       "AsmResolver.PE.File/5.1.0": {
         "dependencies": {
           "AsmResolver": "5.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/AsmResolver.PE.File.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
         }
       },
-      "AssetRipper.Primitives/2.1.0": {},
-      "AssetRipper.VersionUtilities/1.2.1": {},
+      "AssetRipper.Primitives/2.1.0": {
+        "runtime": {
+          "lib/net6.0/AssetRipper.Primitives.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "AssetRipper.VersionUtilities/1.2.1": {
+        "runtime": {
+          "lib/net6.0/AssetRipper.VersionUtilities.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
       "BepInEx.AutoPlugin/1.1.0": {},
       "BepInEx.Core/6.0.0-be.670": {
         "dependencies": {
           "HarmonyX": "2.10.1",
           "MonoMod.Utils": "22.5.1.1",
           "SemanticVersioning": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BepInEx.Core.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
         }
       },
-      "BepInEx.IL2CPP.MSBuild/2.0.1": {},
+      "BepInEx.IL2CPP.MSBuild/2.1.0-rc.1": {},
       "BepInEx.Unity.Common/6.0.0-be.670": {
         "dependencies": {
           "AssetRipper.VersionUtilities": "1.2.1",
           "MonoMod.Utils": "22.5.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BepInEx.Unity.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
         }
       },
       "BepInEx.Unity.IL2CPP/6.0.0-be.670": {
@@ -64,46 +115,171 @@
           "Il2CppInterop.Runtime": "1.4.6-ci.354",
           "MonoMod.RuntimeDetour": "22.5.1.1",
           "Samboy063.Cpp2IL.Core": "2022.1.0-development.866"
+        },
+        "runtime": {
+          "lib/net6.0/BepInEx.Unity.IL2CPP.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
         }
       },
-      "Disarm/2022.1.0-master.26": {},
+      "Disarm/2022.1.0-master.26": {
+        "runtime": {
+          "lib/net6.0/Disarm.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
       "HarmonyX/2.10.1": {
         "dependencies": {
           "MonoMod.RuntimeDetour": "22.5.1.1",
           "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/0Harmony.dll": {
+            "assemblyVersion": "2.10.1.0",
+            "fileVersion": "2.10.1.0"
+          }
         }
       },
-      "Iced/1.18.0": {},
+      "Iced/1.18.0": {
+        "runtime": {
+          "lib/netstandard2.1/Iced.dll": {
+            "assemblyVersion": "1.18.0.0",
+            "fileVersion": "1.18.0.0"
+          }
+        }
+      },
       "Il2CppInterop.Common/1.4.6-ci.354": {
         "dependencies": {
           "Iced": "1.18.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "System.Net.Http": "4.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Il2CppInterop.Common.dll": {
+            "assemblyVersion": "1.4.6.0",
+            "fileVersion": "1.4.6.0"
+          }
         }
       },
       "Il2CppInterop.Generator/1.4.6-ci.354": {
         "dependencies": {
           "Il2CppInterop.Common": "1.4.6-ci.354",
           "Mono.Cecil": "0.11.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Il2CppInterop.Generator.dll": {
+            "assemblyVersion": "1.4.6.0",
+            "fileVersion": "1.4.6.0"
+          }
         }
       },
       "Il2CppInterop.HarmonySupport/1.4.6-ci.354": {
         "dependencies": {
           "HarmonyX": "2.10.1",
           "Il2CppInterop.Runtime": "1.4.6-ci.354"
+        },
+        "runtime": {
+          "lib/net6.0/Il2CppInterop.HarmonySupport.dll": {
+            "assemblyVersion": "1.4.6.0",
+            "fileVersion": "1.4.6.0"
+          }
         }
       },
       "Il2CppInterop.Runtime/1.4.6-ci.354": {
         "dependencies": {
           "Iced": "1.18.0",
           "Il2CppInterop.Common": "1.4.6-ci.354"
+        },
+        "runtime": {
+          "lib/net6.0/Il2CppInterop.Runtime.dll": {
+            "assemblyVersion": "1.4.6.0",
+            "fileVersion": "1.4.6.0"
+          }
         }
       },
-      "js6pak.Gee.External.Capstone/2.1.0": {},
-      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {},
+      "js6pak.Gee.External.Capstone/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Gee.External.Capstone.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libcapstone.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libcapstone.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcapstone.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libcapstone.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libcapstone.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libcapstone.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/capstone.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/capstone.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12309"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.1": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Mono.Cecil/0.11.4": {},
+      "Mono.Cecil/0.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          }
+        }
+      },
       "MonoMod.RuntimeDetour/22.5.1.1": {
         "dependencies": {
           "Mono.Cecil": "0.11.4",
@@ -114,6 +290,12 @@
           "System.Reflection.Emit.ILGeneration": "4.7.0",
           "System.Reflection.Emit.Lightweight": "4.7.0",
           "System.Reflection.TypeExtensions": "4.7.0"
+        },
+        "runtime": {
+          "lib/net5.0/MonoMod.RuntimeDetour.dll": {
+            "assemblyVersion": "22.5.1.1",
+            "fileVersion": "22.5.1.1"
+          }
         }
       },
       "MonoMod.Utils/22.5.1.1": {
@@ -125,6 +307,12 @@
           "System.Reflection.Emit.ILGeneration": "4.7.0",
           "System.Reflection.Emit.Lightweight": "4.7.0",
           "System.Reflection.TypeExtensions": "4.7.0"
+        },
+        "runtime": {
+          "lib/net5.0/MonoMod.Utils.dll": {
+            "assemblyVersion": "22.5.1.1",
+            "fileVersion": "22.5.1.1"
+          }
         }
       },
       "Reactor/2.2.0": {
@@ -188,17 +376,50 @@
           "Samboy063.LibCpp2IL": "2022.1.0-pre-release.13",
           "StableNameDotNet": "0.1.0-pre-release.13",
           "js6pak.Gee.External.Capstone": "2.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Cpp2IL.Core.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
         }
       },
       "Samboy063.LibCpp2IL/2022.1.0-pre-release.13": {
         "dependencies": {
           "AssetRipper.Primitives": "2.1.0",
           "Samboy063.WasmDisassembler": "2022.1.0-pre-release.13"
+        },
+        "runtime": {
+          "lib/net6.0/LibCpp2IL.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
         }
       },
-      "Samboy063.WasmDisassembler/2022.1.0-pre-release.13": {},
-      "SemanticVersioning/2.0.2": {},
-      "StableNameDotNet/0.1.0-pre-release.13": {},
+      "Samboy063.WasmDisassembler/2022.1.0-pre-release.13": {
+        "runtime": {
+          "lib/net6.0/WasmDisassembler.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "SemanticVersioning/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/SemanticVersioning.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "StableNameDotNet/0.1.0-pre-release.13": {
+        "runtime": {
+          "lib/netstandard2.0/StableNameDotNet.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -608,6 +829,12 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1122.52304"
+          }
         }
       },
       "System.Threading/4.3.0": {
@@ -626,7 +853,7 @@
     }
   },
   "libraries": {
-    "PhantomPlus/1.0.0-dev": {
+    "PhantomPlus/3.0.0-dev": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -694,12 +921,12 @@
       "path": "bepinex.core/6.0.0-be.670",
       "hashPath": "bepinex.core.6.0.0-be.670.nupkg.sha512"
     },
-    "BepInEx.IL2CPP.MSBuild/2.0.1": {
+    "BepInEx.IL2CPP.MSBuild/2.1.0-rc.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hUZjCV0t8dkw/Z/zq4Zl405QP7frBk/LVfMdUmUz+7XOhGd7lYPKrR48A5vbGl2QeHudMxlkXzAr9WM3Duq2SQ==",
-      "path": "bepinex.il2cpp.msbuild/2.0.1",
-      "hashPath": "bepinex.il2cpp.msbuild.2.0.1.nupkg.sha512"
+      "sha512": "sha512-WI/7TbJwWl5P4B6UXGtKI1VMe6fA6h3fcbp3ZjJKqOBQ5MJfDMmeVB4fb+RW1tUQdxnlSWV3Ul62PHFyTqp4PA==",
+      "path": "bepinex.il2cpp.msbuild/2.1.0-rc.1",
+      "hashPath": "bepinex.il2cpp.msbuild.2.1.0-rc.1.nupkg.sha512"
     },
     "BepInEx.Unity.Common/6.0.0-be.670": {
       "type": "package",

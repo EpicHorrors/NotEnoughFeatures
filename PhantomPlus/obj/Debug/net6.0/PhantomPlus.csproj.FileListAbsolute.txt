@@ -10,3 +10,27 @@ C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\refint\PhantomPlus.dl
 C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\ref\PhantomPlus.dll
 C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.Properties.Resources.resources
 C:\Users\ANH QUAN\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.GenerateResource.cache
+E:\block\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.deps.json
+E:\block\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.AssemblyReference.cache
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.GeneratedMSBuildEditorConfig.editorconfig
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfoInputs.cache
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfo.cs
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.CoreCompileInputs.cache
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.dll
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\refint\PhantomPlus.dll
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\ref\PhantomPlus.dll
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.Properties.Resources.resources
+E:\block\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.GenerateResource.cache
+D:\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.deps.json
+D:\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.AssemblyReference.cache
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.Properties.Resources.resources
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.GenerateResource.cache
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfoInputs.cache
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfo.cs
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.CoreCompileInputs.cache
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.dll
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\refint\PhantomPlus.dll
+D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\ref\PhantomPlus.dll
