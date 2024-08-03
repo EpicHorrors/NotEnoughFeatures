@@ -18,5 +18,5 @@
 - And I'm a game developer too. You can check out my games at https://epichorrors.itch.io/
 
 # Dev
-- Sometimes I will give early access code of the next version so do keey that in mind
+- Sometimes I will give early access code of the next version so do keep that in mind
 
