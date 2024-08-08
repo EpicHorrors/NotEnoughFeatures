@@ -6,7 +6,8 @@
 - Source code for the mod is above
 
 # About
-![NotEnoughFeature](https://github.com/user-attachments/assets/69a579ef-bef7-4ffe-83ea-2296bd0229cf)
+![notenoughfeature](https://github.com/user-attachments/assets/65009306-9bb7-496b-9baa-d98e8a17c812)
+
 
 - NotEnoughFeature is a mod for AmongUs that will add more "Features" to the game every update.
 - The mod is currently compatible with 2024.6.18 and will receive updates to compatible with the new versions.
