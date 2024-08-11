@@ -18,8 +18,8 @@
 - [Techiee](https://github.com/the-real-techiee)
 - The Legend
 
-# Source codes were taken from:
-- [DarkModeAU](https://github.com/the-real-techiee/DarkModeAU)
+# Source codes:
+- DarkMode Chat: [DarkModeAU](https://github.com/the-real-techiee/DarkModeAU)
 
 # Note
 - I would like to hear your thoughts on the mod
