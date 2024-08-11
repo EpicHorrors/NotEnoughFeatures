@@ -6,7 +6,8 @@
 - Source code for the mod is above
 
 # About
-![notenoughfeature](https://github.com/user-attachments/assets/65009306-9bb7-496b-9baa-d98e8a17c812)
+![notenoughfeature](https://github.com/user-attachments/assets/1c6608ae-3bdc-410b-9f65-f887b2da007f)
+
 
 
 - NotEnoughFeature is a mod for Among Us that will add more Features to the game every update.
