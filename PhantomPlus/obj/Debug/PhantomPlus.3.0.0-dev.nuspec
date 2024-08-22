@@ -8,13 +8,13 @@
     <repository type="git" url="https://github.com/Among-Us-Modding/Laboratory.git" />
     <dependencies>
       <group targetFramework="net6.0">
-        <dependency id="AmongUs.GameLibs.Steam" version="2024.6.18" exclude="Build,Analyzers" />
-        <dependency id="BepInEx.Unity.IL2CPP" version="6.0.0-be.670" exclude="Build,Analyzers" />
+        <dependency id="AmongUs.GameLibs.Steam" version="2024.8.13" exclude="Build,Analyzers" />
+        <dependency id="BepInEx.Unity.IL2CPP" version="6.0.0-be.679" exclude="Build,Analyzers" />
         <dependency id="Reactor" version="2.2.0-ci.238" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll" target="lib\net6.0\PhantomPlus.dll" />
+    <file src="D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll" target="lib\net6.0\PhantomPlus.dll" />
   </files>
 </package>

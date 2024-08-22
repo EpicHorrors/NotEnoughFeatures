@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {}
+    "D:\\EpicHorrors\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {
+    "D:\\EpicHorrors\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj": {
       "version": "3.0.0-dev",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
+        "projectUniqueName": "D:\\EpicHorrors\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
         "projectName": "PhantomPlus",
-        "projectPath": "D:\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
+        "projectPath": "D:\\EpicHorrors\\New folder\\PhantomPlus\\PhantomPlus\\PhantomPlus.csproj",
         "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\PhantomPlus\\PhantomPlus\\obj\\",
+        "outputPath": "D:\\EpicHorrors\\New folder\\PhantomPlus\\PhantomPlus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\New folder\\PhantomPlus\\NuGet.Config",
+          "D:\\EpicHorrors\\New folder\\PhantomPlus\\NuGet.Config",
           "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -52,7 +52,7 @@
           "dependencies": {
             "AmongUs.GameLibs.Steam": {
               "target": "Package",
-              "version": "[2024.6.18, )"
+              "version": "[2024.8.13, )"
             },
             "BepInEx.AutoPlugin": {
               "suppressParent": "All",
@@ -67,7 +67,7 @@
             },
             "BepInEx.Unity.IL2CPP": {
               "target": "Package",
-              "version": "[6.0.0-be.670, )"
+              "version": "[6.0.0-be.679, )"
             },
             "Reactor": {
               "target": "Package",

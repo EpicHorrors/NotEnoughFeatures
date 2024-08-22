@@ -25,8 +25,12 @@
 	<ItemGroup>
 		<EmbeddedResource Include="**\Resources\**" />
 		<EmbeddedResource Remove="**\Resources\**\*.manifest" />
+		<None Remove="Resources\burn.png" />
 		<None Remove="Resources\killstab_victim0045.png" />
 		<None Remove="Resources\noclipmod.png" />
+		<None Remove="Resources\notenoughfeature.png" />
+		<None Remove="Resources\sabotage button_custom.png" />
+		<None Remove="Resources\useButton.png" />
 		<None Update="**\Resources\**\*.manifest">
 			<DependentUpon>%(Filename)</DependentUpon>
 		</None>
@@ -37,10 +41,10 @@
     <EmbeddedResource Include="Assets\**\*" />
 </ItemGroup>			
 	<ItemGroup>
-		<PackageReference Include="AmongUs.GameLibs.Steam" Version="2024.6.18" />
+		<PackageReference Include="AmongUs.GameLibs.Steam" Version="2024.8.13" />
 		<PackageReference Include="BepInEx.AutoPlugin" Version="1.1.0" PrivateAssets="all" />
 		<PackageReference Include="BepInEx.IL2CPP.MSBuild" Version="2.1.0-rc.1" PrivateAssets="all" ExcludeAssets="runtime" />
-		<PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.670" />
+		<PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.679" />
 		<PackageReference Include="Reactor" Version="2.2.0-ci.238" />
 	</ItemGroup>
 
@@ -61,6 +65,7 @@
 
 	<ItemGroup>
 	  <Folder Include="Buttons\" />
+	  <Folder Include="Player\" />
 	</ItemGroup>
 
 	<ItemGroup>

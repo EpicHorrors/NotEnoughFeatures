@@ -34,3 +34,15 @@ D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.CoreCo
 D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.dll
 D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\refint\PhantomPlus.dll
 D:\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\ref\PhantomPlus.dll
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.deps.json
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.AssemblyReference.cache
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.Properties.Resources.resources
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.GenerateResource.cache
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.GeneratedMSBuildEditorConfig.editorconfig
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfoInputs.cache
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.AssemblyInfo.cs
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.csproj.CoreCompileInputs.cache
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\PhantomPlus.dll
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\refint\PhantomPlus.dll
+D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\obj\Debug\net6.0\ref\PhantomPlus.dll
