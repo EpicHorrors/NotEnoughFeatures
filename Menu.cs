@@ -78,9 +78,7 @@ EpicHorrors TheLegend   Techiee
 
 
 
-<b>Github Contributors:</b>
-Alex2911    amsyarasyiq    MaximeGillot
-Psynomit    probablyadnf    JustASysAdmin
+
 
 <b>[https://discord.gg/MP9JTPuVah]Discord[]:</b>
 Thanks to all our discord helpers!
