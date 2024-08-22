@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PhantomPlus</id>
+    <version>3.0.0-dev</version>
+    <authors>EpicHorrors</authors>
+    <description>Among Us modding framework</description>
+    <repository type="git" url="https://github.com/Among-Us-Modding/Laboratory.git" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AmongUs.GameLibs.Steam" version="2024.8.13" exclude="Build,Analyzers" />
+        <dependency id="BepInEx.Unity.IL2CPP" version="6.0.0-be.679" exclude="Build,Analyzers" />
+        <dependency id="Reactor" version="2.2.0-ci.238" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\EpicHorrors\New folder\PhantomPlus\PhantomPlus\bin\Debug\net6.0\PhantomPlus.dll" target="lib\net6.0\PhantomPlus.dll" />
+  </files>
+</package>
