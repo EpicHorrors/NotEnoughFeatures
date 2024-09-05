@@ -16,7 +16,7 @@
 
 Developers & Artist
 - [EpicHorrors](https://github.com/EpicHorrors)(ProjectLead)(MySelf)
-- [Techiee]([https://github.com/EpicHorrors](https://github.com/the-real-techiee))(Coder)
+- [Techiee](https://github.com/the-real-techiee)(Coder)
 - Insanity(Artist)
 
 # Note
