@@ -14,7 +14,7 @@
 - The mod is currently compatible with 2024.6.18 and will receive updates to compatible with the new versions.
 - I incude the source code in the page in case I'm not updating it. For everyone that wanna play the new version when I stop updating it.
 
-Developers & Artist
+# Developers
 - [EpicHorrors](https://github.com/EpicHorrors)(ProjectLead)(MySelf)
 - [Techiee](https://github.com/the-real-techiee)(Coder)
 - Insanity(Artist)
