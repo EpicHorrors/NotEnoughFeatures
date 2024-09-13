@@ -19,6 +19,16 @@
 - [Techiee](https://github.com/the-real-techiee)(Coder)
 - Insanity(Artist)
 
+# Supported Versions
+- ✅ Steam (Supported)
+- ✅ Epic Games (Supported)
+- ✅ itch.io (Supported)
+- ❓ Cracked (Works occasionally)
+- ❌ Microsoft Store (Not Supported)
+- ❌ iOS/iPadOS/Android (Not Supported)
+- ❌ Switch/Xbox/Playstation (Not Supported)
+
+
 # Note
 - I would like to hear your thought on the mod
 - Also I'm a beginner and this is my first every mod, so it not that good compare to other mods
