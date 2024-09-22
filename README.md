@@ -35,5 +35,5 @@
 - And I'm a game developer too. You can check out my games at https://epichorrors.itch.io/
 
 # DevLog
-- Sometimes I will give early access code of the next version so do keep that in mind
+- The next update will be insane!
 
