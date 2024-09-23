@@ -6,8 +6,8 @@
 
 		<VersionPrefix>1.1</VersionPrefix>
 		
-		<Description>Example mod for Mira API</Description>
-		<Authors>Angxl, XtraCube</Authors>
+		<Description>A mod that add new "features" to the game every update</Description>
+		<Authors>EpicHorrors</Authors>
 	</PropertyGroup>
 
 	<ItemGroup>		<PackageReference Include="AllOfUs.MiraAPI" Version="0.1.9" />		<PackageReference Include="Reactor" Version="2.3.1" />
