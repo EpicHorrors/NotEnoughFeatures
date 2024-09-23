@@ -1,0 +1,10 @@
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.csproj.AssemblyReference.cache
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.GeneratedMSBuildEditorConfig.editorconfig
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.AssemblyInfoInputs.cache
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.AssemblyInfo.cs
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.csproj.CoreCompileInputs.cache
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\NotEnoughFeatures.deps.json
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\NotEnoughFeatures.dll
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.dll
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\refint\NotEnoughFeatures.dll
+D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\ref\NotEnoughFeatures.dll
