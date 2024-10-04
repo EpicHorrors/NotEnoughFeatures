@@ -11,7 +11,7 @@
 
 
 - NotEnoughFeature is a mod for AmongUs that will add more "Features" to the game every update.
-- The mod is currently compatible with 2024.6.18 and will receive updates to compatible with the new versions.
+- The mod is currently compatible with 2024.9.4 and will receive updates to compatible with the new versions.
 - I incude the source code in the page in case I'm not updating it. For everyone that wanna play the new version when I stop updating it.
 
 # Developers
@@ -35,5 +35,5 @@
 - And I'm a game developer too. You can check out my games at https://epichorrors.itch.io/
 
 # DevLog
-- The next update will be insane!
+- New update out now!!!!
 
