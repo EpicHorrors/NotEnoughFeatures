@@ -151,14 +151,13 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
         Fart = 3,
         EndFart = 4,
         Point = 5,
-        EndPoint = 5,
-        Gun = 6,
-        EndGun = 7,
-        Shoot = 8,
-        EndShoot = 9,
-
-        DestroyMeeting = 10,
-        RestorMeeting = 11,
+        EndPoint = 6,
+        Dragging = 7,
+        sprint = 8,
+        stopSprint = 9,
+        Transform = 10,
+        StopTransform = 11,
+        
     }
 
     [MethodRpc((uint)CustomRpcCalls.Invis)]
@@ -185,11 +184,11 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
         spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.GarlicBackground.png", 50);
         spriteRenderer.sortingOrder = 10;
 
-        fart.transform.position = PlayerControl.LocalPlayer.transform.position;
+        fart.transform.position = player.transform.position;
 
 
 
-        fart.transform.localPosition = PlayerControl.LocalPlayer.transform.position;
+        fart.transform.localPosition = player.transform.position;
     }
 
     [MethodRpc((uint)CustomRpcCalls.EndFart)]
@@ -214,7 +213,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
         spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.finger.png", 300);
         spriteRenderer.sortingOrder = 10;
 
-        point.transform.SetParent(PlayerControl.LocalPlayer.transform);
+        point.transform.SetParent(player.transform);
         point.transform.localPosition = Vector3.zero;
 
         
@@ -232,46 +231,53 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
 
         Object.Destroy(point);
     }
-
-
-    [MethodRpc((uint)CustomRpcCalls.Gun)]
-    public static void RpcGun(PlayerControl player)
+    
+    [MethodRpc((uint)CustomRpcCalls.Dragging)]
+    public static void RpcClean(DeadBody target)
     {
-        var point = new GameObject("Gun");
+        UnityEngine.Object.Destroy(target.gameObject);
+    }
+
+    [MethodRpc((uint)CustomRpcCalls.sprint)]
+    public static void RpcSprint(PlayerControl player)
+    {
+        player.MyPhysics.Speed = 4;
+    }
+
+    [MethodRpc((uint)CustomRpcCalls.stopSprint)]
+    public static void RpcStopSprint(PlayerControl player)
+    {
+        player.MyPhysics.Speed = 2.5f;
+    }
+    
+    [MethodRpc((uint)CustomRpcCalls.Transform)]
+    public static void Rpctransform(PlayerControl player)
+    {
+        player.Visible = false;
+        var fart = new GameObject("Fart");
 
 
 
-        var spriteRenderer = point.AddComponent<SpriteRenderer>();
+        var spriteRenderer = fart.AddComponent<SpriteRenderer>();
 
-        var fingerScript = point.AddComponent<RotateToPointer>();
-
-        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.Gun.png", 300);
+        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.BlackHole.png", 100);
         spriteRenderer.sortingOrder = 10;
 
-        point.transform.SetParent(PlayerControl.LocalPlayer.transform);
-        point.transform.localPosition = Vector3.zero;
+        fart.transform.SetParent(player.transform);
 
 
 
-
-
-
-
+        fart.transform.localPosition = Vector3.zero;
     }
 
-    [MethodRpc((uint)CustomRpcCalls.EndGun)]
-    public static void RpcEndGun(PlayerControl player)
+    [MethodRpc((uint)CustomRpcCalls.StopTransform)]
+    public static void RpcStoptransform(PlayerControl player)
     {
-        var point = GameObject.Find("Gun");
+        player.Visible = true;
 
-        Object.Destroy(point);
+        var fart = GameObject.Find("Fart");
+        Object.Destroy(fart);
     }
-
-    
-
-
-
-
 
 
     [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.FixedUpdate))]
@@ -309,27 +315,21 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
 
                 
             }
-
-            if (Input.GetKeyDown(KeyCode.G) && OptionGroupSingleton<EmoteOptions>.Instance.CanEmote == true) //Change player
+            if (Input.GetKeyDown(KeyCode.LeftShift)) //Change player
             {
-                toggleGun = !toggleGun;
+                
+                RpcSprint(PlayerControl.LocalPlayer);
 
-                if (toggleGun == false)
-                {
-                    RpcEndGun(PlayerControl.LocalPlayer);
-                }
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift)) //Change player
+            {
 
-                if (toggleGun == true)
-                {
-                    RpcGun(PlayerControl.LocalPlayer);
-                }
-
-
-
+                RpcStopSprint(PlayerControl.LocalPlayer);
 
             }
 
-            
+
+
 
 
             IEnumerator endFart()
