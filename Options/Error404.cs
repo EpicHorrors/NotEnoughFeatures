@@ -12,8 +12,11 @@ public class HackerKill : AbstractOptionGroup
 
     public override Type AdvancedRole => typeof(Hacker);
 
-    [ModdedNumberOption("Cooldown", 0, 60, 2.5f, MiraNumberSuffixes.Seconds)]
+    [ModdedNumberOption("Kill Cooldown", 0, 60, 2.5f, MiraNumberSuffixes.Seconds)]
     public float Cooldown { get; set; } = 5;
+    
+    [ModdedNumberOption("DeleteMap Cooldown", 0, 60, 2.5f, MiraNumberSuffixes.Seconds)]
+    public float MapCooldown { get; set; } = 5;
 
     
 }

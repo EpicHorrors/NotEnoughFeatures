@@ -1,5 +1,6 @@
 ﻿using MiraAPI.Roles;
 using MiraAPI.Utilities.Assets;
+using NotEnoughFeatures.CustomGameOverReasons;
 using TMPro;
 using UnityEngine;
 
@@ -34,6 +35,6 @@ public class BloodMoon : ImpostorRole, ICustomRole
 
     public override bool DidWin(GameOverReason gameOverReason)
     {
-        return GameManager.Instance.DidHumansWin(gameOverReason);
+        return gameOverReason == (GameOverReason)CustomGameOverReasonsEnum.KilledEveryone;
     }
 }

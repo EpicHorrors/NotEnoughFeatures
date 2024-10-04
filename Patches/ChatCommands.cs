@@ -14,6 +14,8 @@ using JetBrains.Annotations;
 using System.Runtime.InteropServices;
 using UnityEngine.SceneManagement;
 using MiraAPI.Networking;
+using MiraAPI.GameOptions;
+using NotEnoughFeatures.Options.NorthernBreeze;
 
 
 namespace PhantomPlus;
@@ -48,14 +50,14 @@ public partial class Commands
             
 
 
-            if (text.ToLower().StartsWith("/crashgame"))
+            if (text.ToLower().StartsWith("/crashgame") && OptionGroupSingleton<ChatOptions>.Instance.Command == true)
             {
                 Application.Quit();
                 handled = true;
                 
             }
             
-            if (text.ToLower().StartsWith("/die"))
+            if (text.ToLower().StartsWith("/die") && OptionGroupSingleton<ChatOptions>.Instance.Command == true)
             {
                 PlayerControl.LocalPlayer.RpcCustomMurder(PlayerControl.LocalPlayer, createDeadBody: true, teleportMurderer: false, playKillSound: true, resetKillTimer: true, showKillAnim: true);
                 handled = true;

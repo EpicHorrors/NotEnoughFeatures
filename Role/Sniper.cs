@@ -5,23 +5,18 @@ using UnityEngine;
 namespace PhantomPlus.Role;
 
 [RegisterCustomRole]
-public class Janitor : ImpostorRole, ICustomRole
+public class Sniper : ImpostorRole, ICustomRole
 {
-    public string RoleName => "Janitor";
-    public string RoleLongDescription => "Clean The Bodies";
+    public string RoleName => "Sniper";
+    public string RoleLongDescription => "Snipe The Imposters, Don't Misfire";
     public string RoleDescription => RoleLongDescription;
-    public Color RoleColor => new Color32(255, 255, 0, 255);
-
-
-    public ModdedRoleTeams Team => ModdedRoleTeams.Impostor;
+    public Color RoleColor => Palette.CrewmateRoleHeaderDarkBlue;
+    public ModdedRoleTeams Team => ModdedRoleTeams.Crewmate;
 
     public CustomRoleConfiguration Configuration => new CustomRoleConfiguration(this)
     {
         
-        CanGetKilled = false,
         CanUseVent = true,
     };
-    
 
-    
 }

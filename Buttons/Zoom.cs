@@ -20,17 +20,19 @@ public class Zoom : CustomActionButton
     public override int MaxUses => 0;
     public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.Assasinate.png");
     public static bool IsZoom { get; private set; }
-
+    public static Color forcedColor = Color.green;
 
     protected override void OnClick()
     {
-
+        forcedColor = Color.green;
+        Button.cooldownTimerText.color = forcedColor;
         Coroutines.Start(ZoomOutCoroutine());
 
     }
 
     public override void OnEffectEnd()
     {
+        Button.cooldownTimerText.color = Color.white;
         Coroutines.Start(ZoomInCoroutine());
     }
 

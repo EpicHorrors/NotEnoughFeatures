@@ -21,10 +21,20 @@ public class Burn : CustomActionButton<PlayerControl>
     public override float EffectDuration => OptionGroupSingleton<DragonBurnOptions>.Instance.DieTimer;
     public override int MaxUses => 0;
     public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.burn (2).png", 90f);
-    
+
+    public static Color forcedColor = Color.green;
+
     protected override void OnClick()
     {
+        forcedColor = Color.green;
+        Button.cooldownTimerText.color = forcedColor;
+        
         Target?.RpcAddModifier<Burned>();
+    }
+
+    public override void OnEffectEnd()
+    {
+        Button.cooldownTimerText.color = Color.white;
     }
 
     public override PlayerControl GetTarget()

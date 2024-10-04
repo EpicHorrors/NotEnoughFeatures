@@ -6,30 +6,25 @@ using UnityEngine;
 namespace PhantomPlus.Role;
 
 [RegisterCustomRole]
-public class EvilShadow : ImpostorRole, ICustomRole
+public class Phaser : ImpostorRole, ICustomRole
 {
-    public string RoleName => "EvilShadow";
-    public string RoleLongDescription => "Corrupted Everyone";
+    public string RoleName => "Phaser";
+    public string RoleLongDescription => "Phase Through Walls And Kill Everyone";
     public string RoleDescription => RoleLongDescription;
-    public Color RoleColor => Palette.Black;
-
-
+    public Color RoleColor => new Color32(150, 125, 125, 255);
     public ModdedRoleTeams Team => ModdedRoleTeams.Neutral;
 
     public CustomRoleConfiguration Configuration => new CustomRoleConfiguration(this)
     {
-        UseVanillaKillButton = true,
+        
         CanGetKilled = true,
         CanUseVent = true,
-        AffectedByLightOnAirship = false,
+        UseVanillaKillButton = true,
+        
     };
-    public override void SpawnTaskHeader(PlayerControl playerControl)
-    {
-        // remove existing task header.
-    }
 
     public override bool DidWin(GameOverReason gameOverReason)
     {
-        return gameOverReason == (GameOverReason)CustomGameOverReasonsEnum.CoruptedEveryone;
+        return gameOverReason == (GameOverReason)CustomGameOverReasonsEnum.KillEveryone;
     }
 }

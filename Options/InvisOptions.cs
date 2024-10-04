@@ -18,8 +18,7 @@ public class InvisOptions : AbstractOptionGroup
     [ModdedNumberOption("Invis Duration", 10, 40, 2f, MiraNumberSuffixes.Seconds)]
     public float InvisDur { get; set; } = 10;
 
-    [ModdedNumberOption("Zoom Distance", 10, 40, 1f, MiraNumberSuffixes.None)]
-    public float ZoomDis { get; set; } = 10;
+    
 
 
 }

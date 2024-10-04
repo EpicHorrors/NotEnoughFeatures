@@ -1,5 +1,6 @@
 ﻿using MiraAPI.Roles;
 using MiraAPI.Utilities.Assets;
+using NotEnoughFeatures.CustomGameOverReasons;
 using UnityEngine;
 
 namespace PhantomPlus.Role;
@@ -28,6 +29,6 @@ public class Hacker : ImpostorRole, ICustomRole
 
     public override bool DidWin(GameOverReason gameOverReason)
     {
-        return GameManager.Instance.DidHumansWin(gameOverReason);
+        return gameOverReason == (GameOverReason)CustomGameOverReasonsEnum.EveryOneHacked;
     }
 }

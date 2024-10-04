@@ -8,17 +8,15 @@ using static UnityEngine.GraphicsBuffer;
 namespace NotEnoughFeatures.Modifier;
 
 [RegisterModifier]
-public class Infected : TimedModifier
+public class Infected : BaseModifier
 {
     public override string ModifierName => "Infected";
     public override bool HideOnUi => false;
-    public override float Duration => 500f;
-    public override bool AutoStart => true;
-    public override bool RemoveOnComplete => true;
+    
 
     
 
-    public override void OnTimerComplete()
+    public override void OnActivate()
     {
         if (Player.AmOwner)
         {

@@ -20,7 +20,7 @@ public class Evaporate : CustomActionButton<PlayerControl>
     public override float Cooldown => OptionGroupSingleton<EclipseDarkenOption>.Instance.EvaporateCooldown;
     public override float EffectDuration => 0f;
     public override int MaxUses => 0;
-    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.noclipmod.png");
+    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.Invis.png");
     
     protected override void OnClick()
     {

@@ -8,15 +8,14 @@ namespace NotEnoughFeatures.Options.NorthernBreeze;
 
 public class KnightKill : AbstractOptionGroup
 {
-    public override string GroupName => "Knight Kill";
+    public override string GroupName => "Sniper";
 
-    public override Type AdvancedRole => typeof(Knight);
+    public override Type AdvancedRole => typeof(Sniper);
 
-    [ModdedNumberOption("Kill Cooldown", 10, 60, 1f, MiraNumberSuffixes.Seconds)]
+    [ModdedNumberOption("Snipe Cooldown", 10, 60, 1f, MiraNumberSuffixes.Seconds)]
     public float KillCooldown { get; set; } = 30;
     
-    [ModdedNumberOption("Kill Uses", 1, 4, 1f, MiraNumberSuffixes.Multiplier)]
-    public float KillUses { get; set; } = 1;
+    
 
     
 }

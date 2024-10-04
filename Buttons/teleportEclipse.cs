@@ -21,6 +21,7 @@ public class TeleportEclipse : CustomActionButton
 
     public override LoadableAsset<Sprite> Sprite => new LoadableResourceAsset("NotEnoughFeatures.Resources.Teleport.png");
     public static bool IsZoom { get; private set; }
+    public static Color forcedColor = Color.green;
 
     public override bool Enabled(RoleBehaviour role)
     {
@@ -28,11 +29,14 @@ public class TeleportEclipse : CustomActionButton
     }
     protected override void OnClick()
     {
+        forcedColor = Color.green;
+        Button.cooldownTimerText.color = forcedColor;
         Coroutines.Start(ZoomOutCoroutine());
     }
 
     public override void OnEffectEnd()
     {
+        Button.cooldownTimerText.color = Color.white;
         Coroutines.Start(ZoomInCoroutine());
     }
 
