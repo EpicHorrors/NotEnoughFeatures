@@ -4,7 +4,7 @@ using NotEnoughFeatures.CustomGameOverReasons;
 using TMPro;
 using UnityEngine;
 
-namespace PhantomPlus.Role;
+namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
 public class BloodMoon : ImpostorRole, ICustomRole

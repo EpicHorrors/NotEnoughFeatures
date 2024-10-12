@@ -3,7 +3,7 @@ using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.CustomGameOverReasons;
 using UnityEngine;
 
-namespace PhantomPlus.Role;
+namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
 public class Phaser : ImpostorRole, ICustomRole

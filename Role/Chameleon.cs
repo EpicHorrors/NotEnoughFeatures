@@ -3,7 +3,7 @@ using MiraAPI.Utilities.Assets;
 using TMPro;
 using UnityEngine;
 
-namespace PhantomPlus.Role;
+namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
 public class Chameleon : ImpostorRole, ICustomRole

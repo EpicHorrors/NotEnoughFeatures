@@ -8,21 +8,27 @@ using Reactor;
 using Reactor.Networking;
 using Reactor.Networking.Attributes;
 using UnityEngine;
-using static MiraAPI.Example.ExamplePlugin;
+using static NotEnoughFeatures.ExamplePlugin;
 using PhantomPlus.Patches;
 
 using Reactor.Utilities;
 using System.Collections;
 using Il2CppSystem.Xml.Schema;
-using PhantomPlus.Buttons;
+using NotEnoughFeatures.Buttons;
 using Hazel;
 using Reactor.Networking.Rpc;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
 using NotEnoughFeatures.API;
 
+using System;
+using AmongUs.GameOptions;
 
-namespace MiraAPI.Example;
+using MiraAPI;
+
+
+
+namespace NotEnoughFeatures;
 
 [BepInAutoPlugin("EpicHorrors.NotEnoughFeatures", "NotEnoughFeatures")]
 [BepInProcess("Among Us.exe")]
@@ -31,6 +37,7 @@ namespace MiraAPI.Example;
 [ReactorModFlags(ModFlags.RequireOnAllClients)]
 public partial class ExamplePlugin : BasePlugin, IMiraPlugin
 {
+    public static GameObject gogogo = GameObject.Find("Fart");
     public Harmony Harmony { get; } = new(Id);
     public string OptionsTitleText => "NotEnough\nFeatures";
     public ConfigFile GetConfigFile() => Config;
@@ -39,7 +46,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
     public static bool toggle;
     public static bool toggleGun;
 
-
+    
 
     public static ConfigEntry<bool> DarkModeConfig;
     public static ConfigEntry<bool> ShowWatermark;
@@ -196,7 +203,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
     {
         var Fart = GameObject.Find("Fart");
 
-        Object.Destroy(Fart);
+        UnityEngine.Object.Destroy(Fart);
     }
 
     [MethodRpc((uint)CustomRpcCalls.Point)]
@@ -229,25 +236,21 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
     {
         var point = GameObject.Find("Finger");
 
-        Object.Destroy(point);
+        UnityEngine.Object.Destroy(point);
     }
     
-    [MethodRpc((uint)CustomRpcCalls.Dragging)]
-    public static void RpcClean(DeadBody target)
-    {
-        UnityEngine.Object.Destroy(target.gameObject);
-    }
+    
 
     [MethodRpc((uint)CustomRpcCalls.sprint)]
     public static void RpcSprint(PlayerControl player)
     {
-        player.MyPhysics.Speed = 4;
+        player.MyPhysics.Speed = GameOptionsManager.Instance.currentGameOptions.GetFloat(FloatOptionNames.PlayerSpeedMod) + 3f;
     }
 
     [MethodRpc((uint)CustomRpcCalls.stopSprint)]
     public static void RpcStopSprint(PlayerControl player)
     {
-        player.MyPhysics.Speed = 2.5f;
+        player.MyPhysics.Speed = GameOptionsManager.Instance.currentGameOptions.GetFloat(FloatOptionNames.PlayerSpeedMod) + 1f;
     }
     
     [MethodRpc((uint)CustomRpcCalls.Transform)]
@@ -260,7 +263,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
 
         var spriteRenderer = fart.AddComponent<SpriteRenderer>();
 
-        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.BlackHole.png", 100);
+        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.shade.png", 90);
         spriteRenderer.sortingOrder = 10;
 
         fart.transform.SetParent(player.transform);
@@ -268,6 +271,8 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
 
 
         fart.transform.localPosition = Vector3.zero;
+
+        
     }
 
     [MethodRpc((uint)CustomRpcCalls.StopTransform)]
@@ -276,7 +281,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
         player.Visible = true;
 
         var fart = GameObject.Find("Fart");
-        Object.Destroy(fart);
+        UnityEngine.Object.Destroy(fart);
     }
 
 
@@ -339,6 +344,8 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
             }
         }
     }
+
+    
 
 }
 

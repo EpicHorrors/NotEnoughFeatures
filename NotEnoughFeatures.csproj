@@ -33,10 +33,17 @@
 	
 
 	<ItemGroup>
+	  <None Remove="Resources\CleanButton (1).png" />
+	  <None Remove="Resources\CleanButton (2).png" />
+	  <None Remove="Resources\CleanButton.png" />
+	  <None Remove="Resources\Douse.png" />
+	  <None Remove="Resources\DouseButton.png" />
 	  <None Remove="Resources\Gun.png" />
 	  <None Remove="Resources\GunButton.png" />
 	  <None Remove="Resources\Hack (2).png" />
 	  <None Remove="Resources\Hack.png" />
+	  <None Remove="Resources\Ignite.png" />
+	  <None Remove="Resources\IgniteButton.png" />
 	  <None Remove="Resources\infect.png" />
 	  <None Remove="Resources\InvisButton.png" />
 	  <None Remove="Resources\Snipe.png" />
