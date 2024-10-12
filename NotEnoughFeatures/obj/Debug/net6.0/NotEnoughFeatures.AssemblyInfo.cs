@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A mod that add new \"features\" to the game every update")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1+bc7290d6c8a6b78ff514527d4ff1e031dc757ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotEnoughFeatures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotEnoughFeatures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.0.0")]

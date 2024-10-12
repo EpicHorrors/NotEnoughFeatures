@@ -4665,14 +4665,14 @@
   "project": {
     "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
+      "projectUniqueName": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
       "projectName": "NotEnoughFeatures",
-      "projectPath": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
+      "projectPath": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
       "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-      "outputPath": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\obj\\",
+      "outputPath": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NuGet.Config",
+        "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NuGet.Config",
         "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
