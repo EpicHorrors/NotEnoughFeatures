@@ -4665,7 +4665,6 @@
   "project": {
     "version": "1.1.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
       "projectName": "NotEnoughFeatures",
       "projectPath": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
@@ -4675,17 +4674,6 @@
       "configFilePaths": [
         "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NuGet.Config",
         "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
-      "projectName": "NotEnoughFeatures",
-      "projectPath": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
-      "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NuGet.Config",
-        "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

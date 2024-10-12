@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "NdKRULKXaDM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
-=======
-  "dgSpecHash": "rTmOilVf2R8=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
->>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
   "expectedPackageFiles": [
     "C:\\Users\\Utente\\.nuget\\packages\\allofus.miraapi\\0.1.9\\allofus.miraapi.0.1.9.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\amongus.gamelibs.steam\\2024.9.4\\amongus.gamelibs.steam.2024.9.4.nupkg.sha512",

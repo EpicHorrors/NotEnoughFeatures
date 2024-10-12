@@ -5,9 +5,9 @@ using UnityEngine;
 namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
-public class Shade : ImpostorRole, ICustomRole
+public class BlackHole : ImpostorRole, ICustomRole
 {
-    public string RoleName => "Shade";
+    public string RoleName => "Black Hole";
     public string RoleLongDescription => "Absorb Everything";
     public string RoleDescription => RoleLongDescription;
     public Color RoleColor => Palette.Purple;

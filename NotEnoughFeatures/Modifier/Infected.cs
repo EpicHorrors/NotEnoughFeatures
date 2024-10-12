@@ -4,7 +4,6 @@ using MiraAPI.Modifiers.Types;
 using MiraAPI.Networking;
 using NotEnoughFeatures.Options;
 using static UnityEngine.GraphicsBuffer;
-using HarmonyLib;
 
 namespace NotEnoughFeatures.Modifier;
 
@@ -13,7 +12,7 @@ public class Infected : BaseModifier
 {
     public override string ModifierName => "Infected";
     public override bool HideOnUi => false;
-
+    
 
     
 
