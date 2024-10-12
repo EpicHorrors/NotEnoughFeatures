@@ -54,7 +54,6 @@ public class Burn : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.Orange);
         return role is Dragon;
     }
 }

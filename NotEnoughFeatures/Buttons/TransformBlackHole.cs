@@ -9,7 +9,7 @@ using System.Collections;
 using NotEnoughFeatures.Patches;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons.Teleporter;
+namespace NotEnoughFeatures.Buttons.Teleporter;
 [RegisterButton]
 public class TransformBlackHole : CustomActionButton
 {

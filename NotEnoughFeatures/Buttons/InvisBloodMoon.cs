@@ -63,7 +63,6 @@ public class InvisBloodMoon : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.ImpostorRoleHeaderVeryDarkRed);
         return role is BloodMoon;
     }
 }

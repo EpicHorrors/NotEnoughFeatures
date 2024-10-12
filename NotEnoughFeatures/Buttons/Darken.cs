@@ -28,7 +28,6 @@ public class Darken : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.Blue);
         return role is Eclipse;
     }
 }

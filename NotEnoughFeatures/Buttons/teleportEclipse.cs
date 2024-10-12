@@ -25,7 +25,6 @@ public class TeleportEclipse : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.Blue);
         return role is Eclipse;
     }
     protected override void OnClick()

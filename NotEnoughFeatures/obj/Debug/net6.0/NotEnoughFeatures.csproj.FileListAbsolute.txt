@@ -16,6 +16,3 @@ C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\N
 C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.sourcelink.json
 C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.dll
 C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\refint\NotEnoughFeatures.dll
-C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\NotEnoughFeatures.deps.json
-C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\NotEnoughFeatures.dll
-C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\ref\NotEnoughFeatures.dll

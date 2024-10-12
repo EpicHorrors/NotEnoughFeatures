@@ -7,17 +7,16 @@ namespace NotEnoughFeatures.Role;
 [RegisterCustomRole]
 public class BlackHole : ImpostorRole, ICustomRole
 {
-    public string RoleName => "Black Hole";
-    public string RoleLongDescription => "Absorb Everything";
+    public string RoleName => "BlackHole";
+    public string RoleLongDescription => "Absorb The World";
     public string RoleDescription => RoleLongDescription;
-    public Color RoleColor => Palette.Purple;
+    public Color RoleColor => Palette.CrewmateRoleHeaderVeryDarkBlue;
     public ModdedRoleTeams Team => ModdedRoleTeams.Impostor;
 
     public CustomRoleConfiguration Configuration => new CustomRoleConfiguration(this)
     {
-        UseVanillaKillButton = false,
+        UseVanillaKillButton = true,
         
+        CanUseVent = true,
     };
-
-
 }

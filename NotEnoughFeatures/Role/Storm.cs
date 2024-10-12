@@ -1,6 +1,5 @@
 ﻿using MiraAPI.Roles;
 using MiraAPI.Utilities.Assets;
-using MiraAPI;
 using UnityEngine;
 
 namespace NotEnoughFeatures.Role;

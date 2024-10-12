@@ -7,5 +7,4 @@ public enum CustomGameOverReasonsEnum
     KilledEveryone = 12,
     KillEveryone = 13,
     CoruptedEveryone = 14,
-    ArsonistWin = 15,
 }

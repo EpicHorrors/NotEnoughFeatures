@@ -44,7 +44,6 @@ public class Error404 : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.AcceptedGreen);
         return role is Hacker;
     }
 }

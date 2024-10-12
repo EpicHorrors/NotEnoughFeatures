@@ -14,8 +14,8 @@ public class KnightKill : AbstractOptionGroup
 
     [ModdedNumberOption("Snipe Cooldown", 10, 60, 1f, MiraNumberSuffixes.Seconds)]
     public float KillCooldown { get; set; } = 30;
+    
+    
 
-    public float KillUses { get; set; } = 5;
-
-
+    
 }

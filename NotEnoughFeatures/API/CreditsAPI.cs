@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using Il2CppSystem.Web;
-using NotEnoughFeatures;
 using Reactor.Utilities;
 using System.Collections.Generic;
 using System.IO;
@@ -30,7 +29,7 @@ namespace NotEnoughFeatures.API
 
         public static void menuTextCredits(string modName, string Version)
         {
-            ReactorCredits.Register($"\r{modName}", Version, isPreRelease: false, (location) => location == ReactorCredits.Location.MainMenu);
+            ReactorCredits.Register($"\r{modName}", Version, isPreRelease: false, ReactorCredits.AlwaysShow);
 
         }
 

@@ -44,7 +44,6 @@ public class freeze : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.LightBlue);
         return role is NothernBreeze;
     }
 }

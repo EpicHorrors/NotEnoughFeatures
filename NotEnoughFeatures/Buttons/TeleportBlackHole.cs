@@ -8,7 +8,7 @@ using Reactor.Utilities;
 using System.Collections;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons.Teleporter;
+namespace NotEnoughFeatures.Buttons.Teleporter;
 [RegisterButton]
 public class TeleportBlackHole : CustomActionButton
 {

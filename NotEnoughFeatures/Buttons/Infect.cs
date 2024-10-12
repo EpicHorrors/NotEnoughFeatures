@@ -44,7 +44,6 @@ public class Infect : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.CrewmateRoleHeaderVeryDarkBlue);
         return role is Virus;
     }
 }

@@ -7,13 +7,13 @@ using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using Rewired;
 using TMPro;
+using static NotEnoughFeatures.NotEnoughFeaturesPlugin;
 using UnityEngine;
 using NotEnoughFeatures;
 
 using System.Collections;
 using System;
 using Reactor.Networking.Rpc;
-using static NotEnoughFeatures.NotEnoughFeaturesPlugin;
 
 
 namespace NotEnoughFeatures.Buttons;

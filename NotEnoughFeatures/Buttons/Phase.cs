@@ -63,7 +63,6 @@ public class Phase : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
-        base.Button.buttonLabelText.SetFaceColor(Palette.DisabledGrey);
         return role is Phaser;
     }
 }

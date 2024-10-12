@@ -1,31 +1,29 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Unity.IL2CPP;
-using HarmonyLib;
-using MiraAPI.GameOptions;
-using MiraAPI.PluginLoading;
-using Reactor;
-using Reactor.Networking;
-using Reactor.Networking.Attributes;
-using UnityEngine;
-using NotEnoughFeatures.Patches;
-
-using Reactor.Utilities;
-using System.Collections;
-using Il2CppSystem.Xml.Schema;
-using NotEnoughFeatures.Buttons;
-using Hazel;
-using Reactor.Networking.Rpc;
-using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using NotEnoughFeatures.API;
-
-using System;
-using AmongUs.GameOptions;
-
+using HarmonyLib;
 using MiraAPI;
-
-
+using Reactor;
+using Reactor.Networking.Attributes;
+using Reactor.Networking;
+using Reactor.Utilities;
+using MiraAPI.PluginLoading;
+using UnityEngine;
+using MiraAPI.GameOptions;
+using AmongUs.GameOptions;
+using Reactor.Utilities.Extensions;
+using JetBrains.Annotations;
+using NotEnoughFeatures.Options;
+using NotEnoughFeatures.Buttons;
+using MiraAPI.Roles;
+using NotEnoughFeatures.Patches;
+using NotEnoughFeatures.Role;
+using MiraAPI.Hud;
+using NotEnoughFeatures.API;
+using MiraAPI.Networking;
+using xCloud;
+using static UnityEngine.GraphicsBuffer;
 
 namespace NotEnoughFeatures;
 
@@ -36,7 +34,6 @@ namespace NotEnoughFeatures;
 [ReactorModFlags(ModFlags.RequireOnAllClients)]
 public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 {
-    public static GameObject gogogo = GameObject.Find("Fart");
     public Harmony Harmony { get; } = new(Id);
     public string OptionsTitleText => "NotEnough\nFeatures";
     public ConfigFile GetConfigFile() => Config;
@@ -45,7 +42,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
     public static bool toggle;
     public static bool toggleGun;
 
-    
+
 
     public static ConfigEntry<bool> DarkModeConfig;
     public static ConfigEntry<bool> ShowWatermark;
@@ -63,9 +60,6 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
         Harmony.PatchAll();
 
         CreditsAPI.menuTextCredits("NotEnoughFeatures", "v1.1");
-        
-        
-
     }
 
 
@@ -202,7 +196,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
     {
         var Fart = GameObject.Find("Fart");
 
-        UnityEngine.Object.Destroy(Fart);
+        Object.Destroy(Fart);
     }
 
     [MethodRpc((uint)CustomRpcCalls.Point)]
@@ -235,21 +229,25 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
     {
         var point = GameObject.Find("Finger");
 
-        UnityEngine.Object.Destroy(point);
+        Object.Destroy(point);
     }
     
-    
+    [MethodRpc((uint)CustomRpcCalls.Dragging)]
+    public static void RpcClean(DeadBody target)
+    {
+        UnityEngine.Object.Destroy(target.gameObject);
+    }
 
     [MethodRpc((uint)CustomRpcCalls.sprint)]
     public static void RpcSprint(PlayerControl player)
     {
-        player.MyPhysics.Speed = GameOptionsManager.Instance.currentGameOptions.GetFloat(FloatOptionNames.PlayerSpeedMod) + 3f;
+        player.MyPhysics.Speed = 4;
     }
 
     [MethodRpc((uint)CustomRpcCalls.stopSprint)]
     public static void RpcStopSprint(PlayerControl player)
     {
-        player.MyPhysics.Speed = GameOptionsManager.Instance.currentGameOptions.GetFloat(FloatOptionNames.PlayerSpeedMod) + 1f;
+        player.MyPhysics.Speed = 2.5f;
     }
     
     [MethodRpc((uint)CustomRpcCalls.Transform)]
@@ -262,7 +260,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 
         var spriteRenderer = fart.AddComponent<SpriteRenderer>();
 
-        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.shade.png", 90);
+        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.BlackHole.png", 100);
         spriteRenderer.sortingOrder = 10;
 
         fart.transform.SetParent(player.transform);
@@ -270,8 +268,6 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 
 
         fart.transform.localPosition = Vector3.zero;
-
-        
     }
 
     [MethodRpc((uint)CustomRpcCalls.StopTransform)]
@@ -280,7 +276,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
         player.Visible = true;
 
         var fart = GameObject.Find("Fart");
-        UnityEngine.Object.Destroy(fart);
+        Object.Destroy(fart);
     }
 
 
@@ -332,10 +328,6 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 
             }
 
-
-
-
-
             IEnumerator endFart()
             {
                 yield return new WaitForSeconds(5f);
@@ -343,8 +335,6 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
             }
         }
     }
-
-    
 
 }
 

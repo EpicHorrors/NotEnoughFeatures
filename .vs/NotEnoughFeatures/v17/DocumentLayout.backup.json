@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\patches\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\patches\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\patches\\showrolesinmeetingpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\patches\\showrolesinmeetingpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\notenoughfeaturesplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\notenoughfeaturesplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\transformbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\transformbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\absorb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\absorb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\invisbloodmoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\invisbloodmoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\role\\storm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\role\\storm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\api\\creditsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\api\\creditsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\options\\blackholeoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\options\\blackholeoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\notenoughfeatures.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\notenoughfeatures.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\patches\\pingtrackerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\patches\\pingtrackerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\options\\knightkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\options\\knightkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\knightkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\transformbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\transformbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\absorb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\absorb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\warp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\warp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\role\\blackhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\role\\storm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\role\\storm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\buttons\\cleanbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\cleanbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\notenoughfeaturesplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\notenoughfeaturesplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\customrpccalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,45 +82,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "nuget.config",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\nuget.config",
-              "RelativeDocumentMoniker": "nuget.config",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\nuget.config",
-              "RelativeToolTip": "nuget.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-12T14:40:23.321Z",
+              "Title": "ShowRolesInMeetingPatch.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Patches\\ShowRolesInMeetingPatch.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Patches\\ShowRolesInMeetingPatch.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Patches\\ShowRolesInMeetingPatch.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Patches\\ShowRolesInMeetingPatch.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T17:02:05.804Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvisBloodMoon.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\InvisBloodMoon.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\InvisBloodMoon.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\InvisBloodMoon.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\InvisBloodMoon.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:25:53.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreditsAPI.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\API\\CreditsAPI.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\API\\CreditsAPI.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\API\\CreditsAPI.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\API\\CreditsAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:20:44.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KnightKill.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Options\\KnightKill.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\Options\\KnightKill.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Options\\KnightKill.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\Options\\KnightKill.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Patches\\Utils.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Patches\\Utils.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Patches\\Utils.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Patches\\Utils.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:38:42.946Z",
+              "WhenOpened": "2024-10-12T15:20:18.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransformBH.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\TransformBH.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\TransformBH.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAswE4AAAA3AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "blackholeOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Options\\blackholeOptions.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Options\\blackholeOptions.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Options\\blackholeOptions.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Options\\blackholeOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:38:01.36Z",
+              "WhenOpened": "2024-10-12T15:17:05.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotEnoughFeaturesPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:27:10.34Z",
               "EditorCaption": ""
             },
             {
@@ -103,27 +174,77 @@
               "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\Absorb.cs",
               "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Absorb.cs",
               "RelativeToolTip": "NotEnoughFeatures\\Buttons\\Absorb.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAkwEcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:36:58.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KnightKill.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\KnightKill.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\KnightKill.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\KnightKill.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\KnightKill.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TransformBH.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:36:40.966Z",
+              "WhenOpened": "2024-10-12T14:38:01.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotEnoughFeatures.csproj",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\NotEnoughFeatures.csproj",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
+              "RelativeToolTip": "NotEnoughFeatures\\NotEnoughFeatures.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T15:08:54.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CleanButton.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\CleanButton.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\CleanButton.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\CleanButton.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\CleanButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:35:33.768Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Storm.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Storm.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Role\\Storm.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Storm.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Role\\Storm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:29:43.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Warp.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Warp.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\Warp.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Warp.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\Warp.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:36:15.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "BlackHole.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\BlackHole.cs",
               "RelativeDocumentMoniker": "NotEnoughFeatures\\Role\\BlackHole.cs",
@@ -136,72 +257,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Warp.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Warp.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\Warp.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Warp.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\Warp.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "KnightKill.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\KnightKill.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\KnightKill.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\KnightKill.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\KnightKill.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:36:15.242Z",
+              "WhenOpened": "2024-10-12T14:36:40.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CleanButton.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\CleanButton.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\CleanButton.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\CleanButton.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\CleanButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "KnightKill.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Options\\KnightKill.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Options\\KnightKill.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Options\\KnightKill.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Options\\KnightKill.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:35:33.768Z",
+              "WhenOpened": "2024-10-12T14:38:42.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "PingTrackerPatch.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Patches\\PingTrackerPatch.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Patches\\PingTrackerPatch.cs",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Patches\\PingTrackerPatch.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Patches\\PingTrackerPatch.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:00:00.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "nuget.config",
+              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\nuget.config",
+              "RelativeDocumentMoniker": "nuget.config",
+              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\nuget.config",
+              "RelativeToolTip": "nuget.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-12T14:40:23.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CustomRpcCalls.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\CustomRpcCalls.cs",
               "RelativeDocumentMoniker": "NotEnoughFeatures\\CustomRpcCalls.cs",
               "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\CustomRpcCalls.cs",
               "RelativeToolTip": "NotEnoughFeatures\\CustomRpcCalls.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:27:09.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Storm.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Storm.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\Role\\Storm.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Storm.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\Role\\Storm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:29:43.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NotEnoughFeaturesPlugin.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
-              "RelativeDocumentMoniker": "NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
-              "ToolTip": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
-              "RelativeToolTip": "NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
-              "ViewState": "AgIAAEsBAAAAAAAAAAAtwJcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:27:10.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T14:27:09.074Z"
             }
           ]
         }
