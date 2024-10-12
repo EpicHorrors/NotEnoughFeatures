@@ -8,8 +8,7 @@ using Reactor;
 using Reactor.Networking;
 using Reactor.Networking.Attributes;
 using UnityEngine;
-using static NotEnoughFeatures.ExamplePlugin;
-using PhantomPlus.Patches;
+using NotEnoughFeatures.Patches;
 
 using Reactor.Utilities;
 using System.Collections;
@@ -35,7 +34,7 @@ namespace NotEnoughFeatures;
 [BepInDependency(ReactorPlugin.Id)]
 [BepInDependency(MiraApiPlugin.Id)]
 [ReactorModFlags(ModFlags.RequireOnAllClients)]
-public partial class ExamplePlugin : BasePlugin, IMiraPlugin
+public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 {
     public static GameObject gogogo = GameObject.Find("Fart");
     public Harmony Harmony { get; } = new(Id);
@@ -79,7 +78,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
         public static void SetText_Prefix(ChatBubble __instance, ref string chatText)
         {
             var sr = __instance.transform.Find("Background").GetComponent<SpriteRenderer>();
-            if (ExamplePlugin.DarkModeConfig.Value) sr.color = new Color(0, 0, 0, 128);
+            if (NotEnoughFeaturesPlugin.DarkModeConfig.Value) sr.color = new Color(0, 0, 0, 128);
 
             if (chatText.Contains("░") ||
                 chatText.Contains("▄") ||
@@ -88,7 +87,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
                 chatText.Contains("▒")) ;
             else
             {
-                if (ExamplePlugin.DarkModeConfig.Value) chatText = ColorString(Color.white, chatText.TrimEnd('\0'));
+                if (NotEnoughFeaturesPlugin.DarkModeConfig.Value) chatText = ColorString(Color.white, chatText.TrimEnd('\0'));
                 else chatText = ColorString(Color.black, chatText.TrimEnd('\0'));
             }
         }
@@ -112,7 +111,7 @@ public partial class ExamplePlugin : BasePlugin, IMiraPlugin
 
         public static void Postfix(ChatController __instance)
         {
-            if (ExamplePlugin.DarkModeConfig.Value)
+            if (NotEnoughFeaturesPlugin.DarkModeConfig.Value)
             {
                 __instance.freeChatField.background.color = new Color32(40, 40, 40, byte.MaxValue);
                 __instance.freeChatField.textArea.compoText.Color(Color.white);

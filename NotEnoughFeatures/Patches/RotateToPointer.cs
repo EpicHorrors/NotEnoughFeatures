@@ -12,8 +12,8 @@ using Reactor;
 using Reactor.Networking;
 using Reactor.Networking.Attributes;
 using UnityEngine;
-using static NotEnoughFeatures.ExamplePlugin;
-using PhantomPlus.Patches;
+using static NotEnoughFeatures.NotEnoughFeaturesPlugin;
+using NotEnoughFeatures.Patches;
 
 using Reactor.Utilities;
 using System.Collections;

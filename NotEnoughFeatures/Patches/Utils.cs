@@ -7,7 +7,7 @@ using System.Reflection;
 using UnityEngine;
 
 
-namespace PhantomPlus.Patches
+namespace NotEnoughFeatures.Patches
 {
     public static class Utils
     {

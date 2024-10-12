@@ -13,7 +13,7 @@ using NotEnoughFeatures;
 using System.Collections;
 using System;
 using Reactor.Networking.Rpc;
-using static NotEnoughFeatures.ExamplePlugin;
+using static NotEnoughFeatures.NotEnoughFeaturesPlugin;
 using MiraAPI.Utilities;
 using MiraAPI.Networking;
 
@@ -69,6 +69,6 @@ public class Absorb : CustomActionButton<PlayerControl>
     public override bool Enabled(RoleBehaviour role)
     {
         base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
-        return role is BlackHole;
+        return role is NotEnoughFeatures.Role.BlackHole;
     }
 }

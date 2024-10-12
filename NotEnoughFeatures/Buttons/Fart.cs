@@ -13,7 +13,7 @@ using NotEnoughFeatures;
 using System.Collections;
 using System;
 using Reactor.Networking.Rpc;
-using static NotEnoughFeatures.ExamplePlugin;
+using static NotEnoughFeatures.NotEnoughFeaturesPlugin;
 
 namespace NotEnoughFeatures.Buttons;
 

@@ -8,3 +8,14 @@ D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\N
 D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.dll
 D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\refint\NotEnoughFeatures.dll
 D:\EpicHorrors\New folder\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\ref\NotEnoughFeatures.dll
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.csproj.AssemblyReference.cache
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.AssemblyInfoInputs.cache
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.AssemblyInfo.cs
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.sourcelink.json
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\NotEnoughFeatures.dll
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\refint\NotEnoughFeatures.dll
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\NotEnoughFeatures.deps.json
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\bin\Debug\net6.0\NotEnoughFeatures.dll
+C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\obj\Debug\net6.0\ref\NotEnoughFeatures.dll

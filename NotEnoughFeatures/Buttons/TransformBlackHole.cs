@@ -3,10 +3,10 @@ using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using System.Collections;
-using PhantomPlus.Patches;
+using NotEnoughFeatures.Patches;
 using UnityEngine;
 
 namespace MiraAPI.Example.Buttons.Teleporter;
@@ -27,7 +27,7 @@ public class TransformBlackHole : CustomActionButton
     
     public override bool Enabled(RoleBehaviour role)
     {
-        return role is PhantomPlus.Role.BlackHole;
+        return role is NotEnoughFeatures.Role.BlackHole;
     }
     protected override void OnClick()
     {

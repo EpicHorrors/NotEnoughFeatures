@@ -1,7 +1,7 @@
 ﻿using MiraAPI.Colors;
 using UnityEngine;
 
-namespace PhantomPlus.Patches;
+namespace NotEnoughFeatures.Patches;
 
 [RegisterCustomColors]
 public static class Colors

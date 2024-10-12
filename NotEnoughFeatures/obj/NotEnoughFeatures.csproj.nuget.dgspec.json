@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj": {}
+    "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj": {}
   },
   "projects": {
-    "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj": {
+    "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj": {
       "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
+        "projectUniqueName": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
         "projectName": "NotEnoughFeatures",
-        "projectPath": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
-        "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-        "outputPath": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\obj\\",
+        "projectPath": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeatures.csproj",
+        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NuGet.Config",
-          "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NuGet.Config",
+          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

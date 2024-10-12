@@ -1,7 +1,7 @@
 using HarmonyLib;
 using UnityEngine;
 
-namespace PhantomPlus.Patches;
+namespace NotEnoughFeatures.Patches;
 
 [HarmonyPatch(typeof(MeetingHud), nameof(MeetingHud.Update))]
 public static class ShowRolesInMeetingPatch

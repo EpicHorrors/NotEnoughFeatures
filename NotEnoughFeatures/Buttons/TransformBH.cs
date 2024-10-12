@@ -13,7 +13,7 @@ using NotEnoughFeatures;
 using System.Collections;
 using System;
 using Reactor.Networking.Rpc;
-using static NotEnoughFeatures.ExamplePlugin;
+using static NotEnoughFeatures.NotEnoughFeaturesPlugin;
 
 
 namespace NotEnoughFeatures.Buttons;
@@ -60,13 +60,13 @@ public class TransformBH : CustomActionButton
 
         if (Input.GetKey(KeyCode.A))
         {
-            var sprite = ExamplePlugin.gogogo.GetComponent<SpriteRenderer>();
+            var sprite = NotEnoughFeaturesPlugin.gogogo.GetComponent<SpriteRenderer>();
             sprite.flipX = false;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            var sprite = ExamplePlugin.gogogo.GetComponent<SpriteRenderer>();
+            var sprite = NotEnoughFeaturesPlugin.gogogo.GetComponent<SpriteRenderer>();
             sprite.flipX = true;
         }
     }
@@ -76,6 +76,6 @@ public class TransformBH : CustomActionButton
     public override bool Enabled(RoleBehaviour role)
     {
         base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
-        return role is BlackHole;
+        return role is NotEnoughFeatures.Role.BlackHole;
     }
 }

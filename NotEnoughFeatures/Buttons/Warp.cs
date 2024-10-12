@@ -28,7 +28,7 @@ public class Warp : CustomActionButton
     public override bool Enabled(RoleBehaviour role)
     {
         base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
-        return role is BlackHole;
+        return role is NotEnoughFeatures.Role.BlackHole;
     }
     protected override void OnClick()
     {

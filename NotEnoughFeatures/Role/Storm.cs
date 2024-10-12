@@ -1,11 +1,12 @@
 ﻿using MiraAPI.Roles;
 using MiraAPI.Utilities.Assets;
+using MiraAPI;
 using UnityEngine;
 
-namespace PhantomPlus.Role;
+namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
-public class Janitor : ImpostorRole, ICustomRole
+public class Storm : ImpostorRole, ICustomRole
 {
     public string RoleName => "Janitor";
     public string RoleLongDescription => "Clean The Ship";

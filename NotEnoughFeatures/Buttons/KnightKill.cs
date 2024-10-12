@@ -6,12 +6,12 @@ using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Modifier.Freezer;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
-namespace PhantomPlus.Buttons;
+namespace NotEnoughFeatures.Buttons;
 
 [RegisterButton]
 public class knightKill : CustomActionButton<PlayerControl>

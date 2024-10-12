@@ -3,7 +3,7 @@ using MiraAPI.Utilities;
 using UnityEngine;
 using System;
 
-namespace PhantomPlus.Patches
+namespace NotEnoughFeatures.Patches
 {
     public class Coroutine
     {

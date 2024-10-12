@@ -4,7 +4,7 @@ using HarmonyLib;
 using Hazel;
 using System.Linq;
 using UnityEngine;
-using PhantomPlus.Patches;
+using NotEnoughFeatures.Patches;
 using System.IO;
 using System.Runtime.InteropServices;
 using UnityEngine;
@@ -18,7 +18,7 @@ using MiraAPI.GameOptions;
 using NotEnoughFeatures.Options.NorthernBreeze;
 
 
-namespace PhantomPlus;
+namespace NotEnoughFeatures;
 
 
 

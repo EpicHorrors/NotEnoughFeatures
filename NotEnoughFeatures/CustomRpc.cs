@@ -12,7 +12,7 @@ public static class CustomRpc
     public static void RpcCleanBody(this PlayerControl source, Byte target)
     {
         Debug.Log("Cleaning body.");
-        var coroutineInstance = new PhantomPlus.Patches.Coroutine();
+        var coroutineInstance = new NotEnoughFeatures.Patches.Coroutine();
         Coroutines.Start(coroutineInstance.CleanBodyCoroutine(target));
     }
 

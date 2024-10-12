@@ -18,7 +18,7 @@ using NotEnoughFeatures.API;
 
 
 
-namespace PhantomPlus.Patches;
+namespace NotEnoughFeatures.Patches;
 
 [HarmonyPatch(typeof(PingTracker), nameof(PingTracker.Update))]
 public class CreditsPatch
@@ -35,7 +35,7 @@ public class CreditsPatch
 
     public static void Postfix(PingTracker __instance)
     {
-        if (ExamplePlugin.ShowWatermark.Value && __instance != null)
+        if (NotEnoughFeaturesPlugin.ShowWatermark.Value && __instance != null)
         {
             __instance.text.alignment = TextAlignmentOptions.Top;
             var position = __instance.GetComponent<AspectPosition>();
@@ -99,7 +99,7 @@ public class CreditsPatch
 
         public static void loadSprites()
         {
-            if (bannerSprite == null) bannerSprite = Utils.loadSpriteFromResources("PhantomPlus.Resources.notenoughfeature.png", 300f);
+            if (bannerSprite == null) bannerSprite = Utils.loadSpriteFromResources("NotEnoughFeatures.Resources.notenoughfeature.png", 300f);
 
         }
 

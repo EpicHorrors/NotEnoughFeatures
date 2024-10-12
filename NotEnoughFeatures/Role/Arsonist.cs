@@ -7,7 +7,7 @@ using MiraAPI.Roles;
 using UnityEngine;
 using NotEnoughFeatures.CustomGameOverReasons;
 using NotEnoughFeatures.Modifier;
-using PhantomPlus.Patches;
+using NotEnoughFeatures.Patches;
 
 
 namespace yanplaRoles.Roles.Neutral;
