@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NotEnoughFeatures
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Utente\Downloads\NotEnoughFeatures\NotEnoughFeatures\
+=======
+build_property.ProjectDir = C:\Users\HOME\Documents\GitHub\NotEnoughFeatures\NotEnoughFeatures\
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

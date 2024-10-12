@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\",
   "Documents": [
     {
@@ -44,6 +45,35 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\utente\\downloads\\notenoughfeatures\\notenoughfeatures\\customrpccalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Janitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\home\\documents\\github\\notenoughfeatures\\notenoughfeatures\\role\\janitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\role\\janitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\home\\documents\\github\\notenoughfeatures\\notenoughfeatures\\buttons\\transformbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\buttons\\transformbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\home\\documents\\github\\notenoughfeatures\\notenoughfeatures\\notenoughfeaturesplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\notenoughfeaturesplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\home\\documents\\github\\notenoughfeatures\\notenoughfeatures\\modifier\\infected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\modifier\\infected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\home\\documents\\github\\notenoughfeatures\\notenoughfeatures\\role\\shade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\role\\shade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|c:\\users\\home\\documents\\github\\notenoughfeatures\\notenoughfeatures\\customrpccalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|NotEnoughFeatures\\NotEnoughFeatures.csproj|solutionrelative:notenoughfeatures\\customrpccalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,6 +84,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -80,10 +111,24 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:38:42.946Z",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Janitor.cs",
+              "DocumentMoniker": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Janitor.cs",
+              "ToolTip": "D:\\EpicHorrors\\New folder\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Janitor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:36:32.661Z",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "TransformBH.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
@@ -93,11 +138,23 @@
               "ViewState": "AgIAAEEAAAAAAAAAAAAswE4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:38:01.36Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "Janitor.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Janitor.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Role\\Janitor.cs",
+              "ToolTip": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Janitor.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Role\\Janitor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:36:22.337Z",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+<<<<<<< HEAD
               "Title": "Absorb.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Absorb.cs",
               "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\Absorb.cs",
@@ -106,11 +163,22 @@
               "ViewState": "AgIAADwAAAAAAAAAAAAkwEcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:36:58.984Z",
+=======
+              "Title": "Infected.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Modifier\\Infected.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Modifier\\Infected.cs",
+              "ToolTip": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Modifier\\Infected.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Modifier\\Infected.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:28:39.673Z",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "KnightKill.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\KnightKill.cs",
               "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\KnightKill.cs",
@@ -132,11 +200,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:36:34.294Z",
+=======
+              "Title": "TransformBH.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "ToolTip": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Buttons\\TransformBH.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA1wA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:27:34.653Z",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "Warp.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\Warp.cs",
               "RelativeDocumentMoniker": "NotEnoughFeatures\\Buttons\\Warp.cs",
@@ -145,10 +224,21 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:36:15.242Z",
+=======
+              "Title": "Shade.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Shade.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\Role\\Shade.cs",
+              "ToolTip": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\Role\\Shade.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\Role\\Shade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:27:10.428Z",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "CleanButton.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Downloads\\NotEnoughFeatures\\NotEnoughFeatures\\Buttons\\CleanButton.cs",
@@ -201,6 +291,30 @@
               "ViewState": "AgIAAEsBAAAAAAAAAAAtwJcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T14:27:10.34Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "NotEnoughFeaturesPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "ToolTip": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\NotEnoughFeaturesPlugin.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:26:16.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomRpcCalls.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\CustomRpcCalls.cs",
+              "RelativeDocumentMoniker": "NotEnoughFeatures\\CustomRpcCalls.cs",
+              "ToolTip": "C:\\Users\\HOME\\Documents\\GitHub\\NotEnoughFeatures\\NotEnoughFeatures\\CustomRpcCalls.cs",
+              "RelativeToolTip": "NotEnoughFeatures\\CustomRpcCalls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:26:15.018Z",
+>>>>>>> 313a05c64aac2d1c564bfdcc6e38eb76fe3d036d
               "EditorCaption": ""
             }
           ]
