@@ -3,11 +3,11 @@ using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using UnityEngine;
 
-namespace PhantomPlus.Buttons;
+namespace NotEnoughFeatures.Buttons;
 
 [RegisterButton]
 public class Shadow : CustomActionButton
@@ -29,6 +29,7 @@ public class Shadow : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.DisabledGrey);
         return role is EvilShadow;
     }
 }

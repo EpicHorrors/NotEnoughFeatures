@@ -1,4 +1,4 @@
-﻿using PhantomPlus.Role;
+﻿using NotEnoughFeatures.Role;
 using MiraAPI.Hud;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
@@ -44,6 +44,7 @@ public class freeze : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.LightBlue);
         return role is NothernBreeze;
     }
 }

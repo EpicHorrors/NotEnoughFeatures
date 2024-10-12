@@ -2,12 +2,12 @@
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using System.Collections;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons.Teleporter;
+namespace NotEnoughFeatures.Buttons.Teleporter;
 [RegisterButton]
 public class TeleportEclipse : CustomActionButton
 {
@@ -25,6 +25,7 @@ public class TeleportEclipse : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.Blue);
         return role is Eclipse;
     }
     protected override void OnClick()

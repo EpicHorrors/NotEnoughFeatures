@@ -11,7 +11,7 @@ using Object = UnityEngine.Object;
 
 using AmongUs.Data;
 using Assets.InnerNet;
-using MiraAPI.Example;
+using NotEnoughFeatures;
 using NotEnoughFeatures.API;
 
 

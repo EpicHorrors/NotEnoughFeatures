@@ -11,9 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Angxl, XtraCube")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EpicHorrors")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Example mod for Mira API")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A mod that add new \"features\" to the game every update")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotEnoughFeatures")]

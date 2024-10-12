@@ -12,13 +12,13 @@ using Reactor;
 using Reactor.Networking;
 using Reactor.Networking.Attributes;
 using UnityEngine;
-using static MiraAPI.Example.ExamplePlugin;
+using static NotEnoughFeatures.ExamplePlugin;
 using PhantomPlus.Patches;
 
 using Reactor.Utilities;
 using System.Collections;
 using Il2CppSystem.Xml.Schema;
-using PhantomPlus.Buttons;
+using NotEnoughFeatures.Buttons;
 using Hazel;
 using Reactor.Networking.Rpc;
 using NotEnoughFeatures.Options;

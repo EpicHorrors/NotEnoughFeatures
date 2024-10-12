@@ -1,7 +1,7 @@
 ﻿
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -11,7 +11,7 @@ using NotEnoughFeatures.Options;
 using MiraAPI.GameOptions;
 
 
-namespace PhantomPlus.Buttons;
+namespace NotEnoughFeatures.Buttons;
 
 [RegisterButton]
 public class Burn : CustomActionButton<PlayerControl>
@@ -54,6 +54,7 @@ public class Burn : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.Orange);
         return role is Dragon;
     }
 }

@@ -3,7 +3,7 @@ using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using Rewired;
 using TMPro;
@@ -13,9 +13,9 @@ using NotEnoughFeatures;
 using System.Collections;
 using System;
 using Reactor.Networking.Rpc;
-using static MiraAPI.Example.ExamplePlugin;
+using static NotEnoughFeatures.ExamplePlugin;
 
-namespace PhantomPlus.Buttons;
+namespace NotEnoughFeatures.Buttons;
 
 [RegisterButton]
 public class InvisBloodMoon : CustomActionButton
@@ -63,6 +63,7 @@ public class InvisBloodMoon : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.ImpostorRoleHeaderVeryDarkRed);
         return role is BloodMoon;
     }
 }

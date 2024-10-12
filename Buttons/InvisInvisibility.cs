@@ -3,7 +3,7 @@ using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using Rewired;
 using TMPro;
@@ -13,10 +13,10 @@ using NotEnoughFeatures;
 using System.Collections;
 using System;
 using Reactor.Networking.Rpc;
-using static MiraAPI.Example.ExamplePlugin;
+using static NotEnoughFeatures.ExamplePlugin;
 
 
-namespace PhantomPlus.Buttons;
+namespace NotEnoughFeatures.Buttons;
 
 [RegisterButton]
 public class InvisInvisibility : CustomActionButton
@@ -63,6 +63,7 @@ public class InvisInvisibility : CustomActionButton
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.White);
         return role is Invisiblility;
     }
 }

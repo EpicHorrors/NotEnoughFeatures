@@ -5,7 +5,7 @@ using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -40,6 +40,7 @@ public class Assasinate : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
         return role is Assasin;
     }
 }

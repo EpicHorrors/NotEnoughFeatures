@@ -1,6 +1,6 @@
 ﻿using MiraAPI.Modifiers;
 using MiraAPI.Modifiers.Types;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Il2CppSystem;
 using UnityEngine;
 using MiraAPI.Networking;

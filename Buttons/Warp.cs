@@ -3,31 +3,38 @@ using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using NotEnoughFeatures.Options;
 using NotEnoughFeatures.Options.NorthernBreeze;
+using NotEnoughFeatures.Buttons;
 using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using System.Collections;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
-namespace NotEnoughFeatures.Buttons;
-
+namespace NotEnoughFeatures.Buttons.Teleporter;
 [RegisterButton]
-public class Zoom : CustomActionButton
+public class Warp : CustomActionButton
 {
-    public override string Name => "Zoom";
-    public override float Cooldown => OptionGroupSingleton<evilshadow>.Instance.ZoomCooldown;
-    public override float EffectDuration => OptionGroupSingleton<evilshadow>.Instance.ZoomDur;
+    public override string Name => "Warp";
+
+    public override float Cooldown => OptionGroupSingleton<blackholeOptions>.Instance.WarpCooldown;
+
+    public override float EffectDuration => OptionGroupSingleton<blackholeOptions>.Instance.Warpdur;
+
     public override int MaxUses => 0;
-    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.Assasinate.png");
+
+    public override LoadableAsset<Sprite> Sprite => new LoadableResourceAsset("NotEnoughFeatures.Resources.Teleport.png");
     public static bool IsZoom { get; private set; }
     public static Color forcedColor = Color.green;
 
+    public override bool Enabled(RoleBehaviour role)
+    {
+        base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
+        return role is BlackHole;
+    }
     protected override void OnClick()
     {
         forcedColor = Color.green;
         Button.cooldownTimerText.color = forcedColor;
         Coroutines.Start(ZoomOutCoroutine());
-
     }
 
     public override void OnEffectEnd()
@@ -36,11 +43,29 @@ public class Zoom : CustomActionButton
         Coroutines.Start(ZoomInCoroutine());
     }
 
+    public override bool CanUse()
+    {
+        return base.CanUse() && TransformBH.isTransformed;
+    }
+
+    protected override void FixedUpdate(PlayerControl playerControl)
+    {
+        base.FixedUpdate(playerControl);
+
+        if (!EffectActive) return;
+
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            playerControl.NetTransform.RpcSnapTo(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            ResetCooldownAndOrEffect();
+        }
+    }
+
     private static IEnumerator ZoomOutCoroutine()
     {
         HudManager.Instance.ShadowQuad.gameObject.SetActive(false);
         IsZoom = true;
-        var zoomDistance = OptionGroupSingleton<evilshadow>.Instance.ZoomDis;
+        var zoomDistance = OptionGroupSingleton<TeleporterEclipseOptions>.Instance.ZoomDistance;
         for (var ft = Camera.main!.orthographicSize; ft < zoomDistance; ft += 0.3f)
         {
             Camera.main.orthographicSize = MeetingHud.Instance ? 3f : ft;
@@ -69,11 +94,5 @@ public class Zoom : CustomActionButton
         IsZoom = false;
 
         ResolutionManager.ResolutionChanged.Invoke((float)Screen.width / Screen.height, Screen.width, Screen.height, Screen.fullScreen);
-    }
-
-    public override bool Enabled(RoleBehaviour role)
-    {
-        base.Button.buttonLabelText.SetFaceColor(Palette.Black);
-        return role is EvilShadow;
     }
 }

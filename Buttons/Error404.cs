@@ -1,7 +1,7 @@
 ﻿using NotEnoughFeatures.Modifier.Freezer;
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using Reactor.Utilities;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -10,7 +10,7 @@ using NotEnoughFeatures.Modifier;
 using MiraAPI.GameOptions;
 using NotEnoughFeatures.Options.NorthernBreeze;
 
-namespace PhantomPlus.Buttons;
+namespace NotEnoughFeatures.Buttons;
 
 [RegisterButton]
 public class Error404 : CustomActionButton<PlayerControl>
@@ -44,6 +44,7 @@ public class Error404 : CustomActionButton<PlayerControl>
 
     public override bool Enabled(RoleBehaviour role)
     {
+        base.Button.buttonLabelText.SetFaceColor(Palette.AcceptedGreen);
         return role is Hacker;
     }
 }

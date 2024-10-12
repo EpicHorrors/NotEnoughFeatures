@@ -1,7 +1,7 @@
 ﻿using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 using MiraAPI.Utilities;
-using PhantomPlus.Role;
+using NotEnoughFeatures.Role;
 using System;
 
 namespace NotEnoughFeatures.Options;
