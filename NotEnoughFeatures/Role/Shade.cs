@@ -7,7 +7,7 @@ namespace NotEnoughFeatures.Role;
 [RegisterCustomRole]
 public class Shade : ImpostorRole, ICustomRole
 {
-    public string RoleName => "Black Hole";
+    public string RoleName => "Shade";
     public string RoleLongDescription => "Absorb Everything";
     public string RoleDescription => RoleLongDescription;
     public Color RoleColor => Palette.Purple;
