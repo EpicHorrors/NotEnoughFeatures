@@ -10,7 +10,7 @@ public class blackholeOptions : AbstractOptionGroup
 {
     public override string GroupName => "BlackHole";
 
-    public override Type AdvancedRole => typeof(BlackHole);
+    public override Type AdvancedRole => typeof(Shade);
 
     [ModdedNumberOption("Absorb Cooldown", 0, 60, 2.5f, MiraNumberSuffixes.Seconds)]
     public float Cooldown { get; set; } = 20;
@@ -25,8 +25,8 @@ public class blackholeOptions : AbstractOptionGroup
     public float Zoomdis { get; set; } = 12;
 
     [ModdedNumberOption("Transform Cooldown", 0, 60, 2.5f, MiraNumberSuffixes.Seconds)]
-    public float TransCooldown { get; set; } = 5;
+    public float TransCooldown { get; set; } = 1;
 
-    [ModdedNumberOption("Transform Duration", 0, 60, 2.5f, MiraNumberSuffixes.Seconds)]
-    public float Transdur { get; set; } = 15;
+    [ModdedNumberOption("Transform Duration", 0, 100, 2.5f, MiraNumberSuffixes.Seconds)]
+    public float Transdur { get; set; } = 30;
 }

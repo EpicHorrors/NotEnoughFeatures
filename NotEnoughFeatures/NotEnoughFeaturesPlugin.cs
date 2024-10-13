@@ -260,7 +260,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 
         var spriteRenderer = fart.AddComponent<SpriteRenderer>();
 
-        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.shade.png", 100);
+        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.shade.png", 80);
         spriteRenderer.sortingOrder = 10;
 
         fart.transform.SetParent(player.transform);

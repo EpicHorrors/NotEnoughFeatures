@@ -25,7 +25,7 @@ public class TransformBH : CustomActionButton
     public override float Cooldown => OptionGroupSingleton<blackholeOptions>.Instance.TransCooldown;
     public override float EffectDuration => OptionGroupSingleton<blackholeOptions>.Instance.Transdur;
     public override int MaxUses => 0;
-    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.BlackHole_Button.png", 350);
+    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.ShadeButton.png");
     public static bool shadows;
 
     public static bool isTransformed;
