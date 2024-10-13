@@ -19,6 +19,12 @@
 - [Techiee](https://github.com/the-real-techiee)(Coder)
 - Insanity(Artist)
 
+# Code
+- EpicHorrors
+- Techiee
+- TechDev
+- YanplaRoles
+
 # Supported Versions
 - ✅ Steam (Supported)
 - ✅ Epic Games (Supported)
