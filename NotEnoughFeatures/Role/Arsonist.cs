@@ -10,7 +10,7 @@ using NotEnoughFeatures.Modifier;
 using NotEnoughFeatures.Patches;
 
 
-namespace yanplaRoles.Roles.Neutral;
+namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
 public class Arsonist : ImpostorRole, ICustomRole
