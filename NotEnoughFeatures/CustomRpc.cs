@@ -4,7 +4,7 @@ using Reactor.Utilities;
 using UnityEngine;
 
 
-namespace yanplaRoles.rpc;
+namespace NotEnoughFeatures.rpc;
 public static class CustomRpc
 {
 
