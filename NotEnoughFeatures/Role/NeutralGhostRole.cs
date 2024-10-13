@@ -2,7 +2,7 @@ using MiraAPI.Roles;
 using UnityEngine;
 
 
-namespace yanplaRoles.Roles.Neutral;
+namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
 
