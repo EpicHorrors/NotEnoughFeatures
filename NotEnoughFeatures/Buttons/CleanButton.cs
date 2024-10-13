@@ -6,7 +6,7 @@ using NotEnoughFeatures.Options.NorthernBreeze;
 using NotEnoughFeatures.Role;
 using UnityEngine;
 
-using yanplaRoles.rpc;
+using NotEnoughFeatures.rpc;
 
 namespace NotEnoughFeatures.Buttons;
 
