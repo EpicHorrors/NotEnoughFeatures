@@ -26,7 +26,7 @@ public class Absorb : CustomActionButton<PlayerControl>
     public override float Cooldown => OptionGroupSingleton<blackholeOptions>.Instance.Cooldown;
     public override float EffectDuration => 0;
     public override int MaxUses => 0;
-    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.GarlicButton.png");
+    public override LoadableAsset<Sprite> Sprite { get; } = new LoadableResourceAsset("NotEnoughFeatures.Resources.BlackHole_Button.png", 350);
     public static bool shadows;
 
     public override ButtonLocation Location => ButtonLocation.BottomRight;
