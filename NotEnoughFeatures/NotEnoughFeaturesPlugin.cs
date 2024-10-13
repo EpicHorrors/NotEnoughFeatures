@@ -260,7 +260,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 
         var spriteRenderer = fart.AddComponent<SpriteRenderer>();
 
-        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.BlackHole.png", 100);
+        spriteRenderer.sprite = Utils.LoadSpriteIntoGame("NotEnoughFeatures.Resources.shade.png", 100);
         spriteRenderer.sortingOrder = 10;
 
         fart.transform.SetParent(player.transform);
@@ -287,14 +287,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
     {
         public static void Postfix()
         {
-            if (Input.GetKeyDown(KeyCode.R) && OptionGroupSingleton<EmoteOptions>.Instance.CanEmote == true) //Change player
-            {
-                RpcFart(PlayerControl.LocalPlayer);
-
-                Coroutines.Start(endFart());
-
-
-            }
+           
 
 
             if (Input.GetKeyDown(KeyCode.P) && OptionGroupSingleton<EmoteOptions>.Instance.CanEmote == true) //Change player
@@ -328,11 +321,7 @@ public partial class NotEnoughFeaturesPlugin : BasePlugin, IMiraPlugin
 
             }
 
-            IEnumerator endFart()
-            {
-                yield return new WaitForSeconds(5f);
-                RpcEndFart(PlayerControl.LocalPlayer);
-            }
+            
         }
     }
 

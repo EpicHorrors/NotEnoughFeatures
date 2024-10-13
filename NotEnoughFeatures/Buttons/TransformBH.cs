@@ -58,15 +58,17 @@ public class TransformBH : CustomActionButton
     {
         base.FixedUpdateHandler(playerControl);
 
+        var Fart = GameObject.Find("Fart");
+
         if (Input.GetKey(KeyCode.A))
         {
-            var sprite = NotEnoughFeaturesPlugin.gogogo.GetComponent<SpriteRenderer>();
+            var sprite = Fart.GetComponent<SpriteRenderer>();
             sprite.flipX = false;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            var sprite = NotEnoughFeaturesPlugin.gogogo.GetComponent<SpriteRenderer>();
+            var sprite = Fart.GetComponent<SpriteRenderer>();
             sprite.flipX = true;
         }
     }
@@ -76,6 +78,6 @@ public class TransformBH : CustomActionButton
     public override bool Enabled(RoleBehaviour role)
     {
         base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
-        return role is NotEnoughFeatures.Role.BlackHole;
+        return role is NotEnoughFeatures.Role.Shade;
     }
 }

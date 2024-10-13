@@ -5,18 +5,19 @@ using UnityEngine;
 namespace NotEnoughFeatures.Role;
 
 [RegisterCustomRole]
-public class Knight : CrewmateRole, ICustomRole
+public class Shade : ImpostorRole, ICustomRole
 {
-    public string RoleName => "Knight";
-    public string RoleLongDescription => "Kill One Imposter";
+    public string RoleName => "Black Hole";
+    public string RoleLongDescription => "Absorb Everything";
     public string RoleDescription => RoleLongDescription;
-    public Color RoleColor => Palette.CrewmateBlue;
-    public ModdedRoleTeams Team => ModdedRoleTeams.Crewmate;
+    public Color RoleColor => Palette.Purple;
+    public ModdedRoleTeams Team => ModdedRoleTeams.Impostor;
 
     public CustomRoleConfiguration Configuration => new CustomRoleConfiguration(this)
     {
+        UseVanillaKillButton = false,
         
-        CanUseVent = false,
     };
+
 
 }

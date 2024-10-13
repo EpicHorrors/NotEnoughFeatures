@@ -69,6 +69,6 @@ public class Absorb : CustomActionButton<PlayerControl>
     public override bool Enabled(RoleBehaviour role)
     {
         base.Button.buttonLabelText.SetFaceColor(Palette.Purple);
-        return role is NotEnoughFeatures.Role.BlackHole;
+        return role is NotEnoughFeatures.Role.Shade;
     }
 }

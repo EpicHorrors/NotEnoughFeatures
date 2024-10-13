@@ -1,6 +1,7 @@
 ﻿using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
@@ -9,7 +10,37 @@ namespace NotEnoughFeatures.Patches
 {
     public static class Utils
     {
+        private static Dictionary<byte, List<RoleBehaviour>> playerRolesHistory = new Dictionary<byte, List<RoleBehaviour>>();
+        public static UnityEngine.SpriteRenderer myRend(this PlayerControl p) => p.cosmetics.currentBodySprite.BodySprite;
+
+
         public static Dictionary<string, Sprite> CachedSprites = new();
+
+        public static PlayerControl PlayerById(byte id)
+        {
+            foreach (var player in PlayerControl.AllPlayerControls)
+                if (player.PlayerId == id)
+                    return player;
+
+            return null;
+        }
+
+        public static List<RoleBehaviour> GetPlayerRolesHistory(byte playerId)
+        {
+            if (playerRolesHistory.ContainsKey(playerId))
+            {
+                return playerRolesHistory[playerId];
+            }
+            return new List<RoleBehaviour>();
+        }
+
+        public static RoleBehaviour GetPlayerLastRole(byte playerId)
+        {
+            if (playerRolesHistory.ContainsKey(playerId)) return playerRolesHistory[playerId].Last();
+            return null;
+        }
+
+        public static void ClearPlayerRolesHistory() => playerRolesHistory.Clear();
 
         public static Sprite LoadSprite(string path, float pixelsPerUnit = 1f)
         {
@@ -40,7 +71,7 @@ namespace NotEnoughFeatures.Patches
             }
             catch
             {
-                
+
             }
 
             return null;
